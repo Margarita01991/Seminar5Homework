@@ -15,9 +15,9 @@ int[] FillArray(int size, int leftRange, int rightRange)
 int[] array = FillArray (5, -30, 99);
 Console.WriteLine('['+ string.Join(", ", array) + ']');
 int sum = 0;
-for(int i = 0; i <array.Length; i++) 
+for(int i = 1; i <array.Length; i+=2) // вместо i=0;...; i++
 {
-    if (i%2 != 0)
+//    if (i%2 != 0)
     sum = sum + array[i];
 }
 Console.WriteLine(sum);

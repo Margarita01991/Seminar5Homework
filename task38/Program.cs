@@ -21,16 +21,3 @@ for (int i = 0; i < array.Length; i++)
 }
 Console.WriteLine($"Разница между максимальным и минимальным элементом' = {max - min}");
 
-
-
-// for (int i = 0; i <array.Length - 1; i++) 
-// {
-//     double minposition = i;
-//     {
-//         for (int j = i + 1 ; j <array.Length; j++)
-//         {
-//         if (array[j] < array[minposition]) minposition = j;
-//         }
-//     }
-
-// }
